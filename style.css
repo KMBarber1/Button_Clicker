@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+
+.box {
+    width: 100%;
+}
+
+.container {
+    width: 1080px;
+    height: 1080px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.nav {
+    height: 50px;
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+
+.nav input {
+    width: 30em;
+}
+
+.button {
+    background-color: lightblue;
+    box-shadow: 5px 5px 0px black;
+}
+
+.columns {
+    display: flex;
+    /* height: 500px; */
+    width: auto;
+    /* vertical-align: bottom; */
+}
+
+.word {
+    border: 3px solid black;
+    /* padding: 10px; */
+    display: flex;
+    /* margin-bottom: 20px; */
+    /* margin: 50 px */
+    line-height: 30px;
+    /* width:auto */
+    text-align: center;
+    
+}
+.defined {
+    /* border: 3px solid grey; */
+    border: 3px solid black;
+    line-height: 20px;
+    /* display: inline-flex; */
+    /* margin-bottom: 20px; */
+    /* justify-content: space-around; */
+    /* line-height: normal; */
+    /* line-height: 30px; */
+    /* display: flex; */
+    padding: 10px;
+    /* font-weight: bold; */
+    width: auto;
+    text-align: center;
+}
+
+.definition {
+    flex: 2;
+    padding: 60px;
+    /* background-color: cadetblue; */
+    vertical-align: middle;
+    line-height: normal;
+    text-align: left;
+
+} 
+
+.add {
+    background-color: aquamarine;
+    margin-top: 10px;
+    box-shadow: 5px 5px 2px grey;
+    width: 100%;
+}
+
+/* .info-1 {
+        flex:1;
+        padding: 10px;
+        background-color: cadetblue;
+        vertical-align: middle;
+} */ 
+
+.col-1 {
+    flex: 1;
+    padding: 10px;
+    /* background-color: darkseagreen; */
+    /* width: 100%;
+    height: 300px; */
+}
+
+.col-3 {
+    flex: 3;
+    padding: 10px;
+    /* background-color: lightseagreen; */
+}
+
+.likes {
+    background-color: rgb(241, 241, 13);
+    box-shadow: 5px 5px 2px grey;
+}
